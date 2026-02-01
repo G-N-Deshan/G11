@@ -98,6 +98,27 @@ body{
     font-weight: 600;
     
 }
+
+.section-0 .navbar .nav-link--login:hover{
+    color: #ff5733;
+}
+
+.section-0 .navbar .nav-link--login{
+    transition-duration: 0.25s;
+    transition-timing-function: ease;
+}
+
+.section-0 .login-btn{
+    position:relative;
+    right: -5rem;
+    top: 0rem;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    margin: 0;
+}
+
 .section-0 button{
     background-color: transparent;
     border: none;
