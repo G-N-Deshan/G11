@@ -22,12 +22,38 @@ body {
 body::-webkit-scrollbar {
     display: none;
 }
+@keyframes changebackground {
+    0%{
+        background-image: url(/assets/images/1.jpg);
+    }
+    14.28%{
+        background-image: url(/assets/images/2.jpg);
+    }
+    28.56%{
+        background-image: url(/assets/images/3.jpg);
+    }
+    42.84%{
+        background-image: url(/assets/images/4.jpg);
+    }
+    57.12%{
+        background-image: url(/assets/images/5.jpg);
+    }
+    71.4%{
+        background-image: url(/assets/images/6.jpg);
+    }
+    85.68%{
+        background-image: url(/assets/images/7.jpg);
+    }
+    100%{
+        background-image: url(/assets/images/4.jpg);
+    }
+}
 
 .section-1{
-    background-image: url(/assets/images/home\ page\ background\ \(2\).jpg);
+    animation: changebackground 180s infinite;
     background-repeat: no-repeat;
-    background-size: contain;
-    background-position: right; 
+    background-size: 60% 100%;
+    background-position: right center;
     width: 100%;
     min-height: 80vh;
     padding: 2rem;
