@@ -1,8 +1,8 @@
 
 
 
-CREATE DATABASE g11_e_bussiness;
-USE g11_e_bussiness;
+CREATE DATABASE g11_vehical_systems;
+USE g11_vehical_systems;
 
 
 CREATE TABLE users (

@@ -1,0 +1,56 @@
+html {
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    overflow-x: hidden;
+}
+
+html::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+    margin: 0rem;
+    padding: 0rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    overflow-x: hidden;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+
+
+.section-1{
+    text-align: center;
+}
+
+.section-1 button{
+   padding: 1rem 2rem;
+   margin: 1rem 0.2rem;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    font-size: 1rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    
+    transition: background-color 0.3s ease;
+
+}
+
+.section-1 button:hover{
+    background-color: #0056b3;
+    opacity: 1;
+    transform: translateY(-0.2rem);
+
+
+}
+
+
+
+

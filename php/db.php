@@ -3,7 +3,7 @@
     $host = "localhost";
     $user = "root";
     $password = "";
-    $dbname = "g11_vehical_system";
+    $dbname = "g11_vehical_systems";
 
     $conn = mysqli_connect($host, $user, $password, $dbname);
 

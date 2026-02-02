@@ -4,12 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../../Css/signup.css">
+
     <title>Sign Up</title>
+
+    
 </head>
 <body>
     
     <div class="signup-section">
-        <form action="">
+        <form action="../../php/signup.php" method="POST">
             <div>
                     <div class="signup-header">
                         <img src="../../assets/images/suv-car.png" alt="logo" class="signup-logo">
@@ -32,7 +35,7 @@
             <label for="password">Password:</label>
             <input type="password" id="password" name="password" placeholder="Enter your password" required>
                 <br><br>
-            <button type="submit">Sign Up</button>
+            <button type="submit" name="signup">Sign Up</button>
             <br>
 
             <strong>or</strong>
@@ -44,7 +47,16 @@
          </form>
     </div>
 
+
+
+
+
+
+
+    
 </body>
+
 </html>
-</body>
-</html>
+
+
+
