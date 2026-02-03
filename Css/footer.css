@@ -18,6 +18,7 @@ body{
     color: #e2e8f0;
     padding: 2rem 1.5rem 1.5rem;
     margin-top: auto;
+    
 }
 
 .footer-container{
@@ -26,6 +27,7 @@ body{
     display: grid;
     grid-template-columns: repeat(4, minmax(0, 1fr));
     gap: 2.5rem;
+    
 }
 
 .footer-brand{
