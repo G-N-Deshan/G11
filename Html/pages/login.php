@@ -13,7 +13,7 @@
         <form action="../../php/login.php" method="POST">
             <div>
                     <div class="login-header">
-                        <img src="../../assets/images/suv-car.png" alt="logo" class="login-logo">
+                        <img src="../../assets/images/key.png" alt="logo" class="login-logo">
                     <h2>G11 Vehicles</h2>
                     </div>
                     <p>Welcome back! Please login to your account</p>

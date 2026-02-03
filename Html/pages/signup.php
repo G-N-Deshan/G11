@@ -16,10 +16,10 @@
         <form action="../../php/signup.php" method="POST">
             <div>
                     <div class="signup-header">
-                        <img src="../../assets/images/suv-car.png" alt="logo" class="signup-logo">
-                    <h2>G11 Vehicles</h2>
+                        <img src="../../assets/images/add-user.png" alt="logo" class="signup-logo">
+                    <h2>  G11 Vehicles</h2>
                     </div>
-                    <p>Create your account and start exploring vehicles</p>
+                    <p>Create your account and start exploring Cloths.</p>
                 </div>
             <label for="fullname">Full Name:</label>
             <input type="text" id="fullname" name="fullname" placeholder="Enter your full name" required>

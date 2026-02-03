@@ -10,7 +10,7 @@
 <body>
     <?php include '../navbar.php'; ?>
 
-    <h1>Vehicle Details</h1>
+    <h1>Item Details Page</h1>
 
     <?php include '../footer.php'; ?>
 

@@ -11,3 +11,5 @@
         </div>
     </nav>
 </section>
+
+<?php include 'cart.php'; ?>

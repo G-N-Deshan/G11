@@ -43,11 +43,11 @@ body::-webkit-scrollbar {
     border: 1px solid rgba(255, 255, 255, 0.18);
 }
 .login-section .login-header img{
-    width: 5%;
-    height: 5%;
+    width: 8%;
+    height: 8%;
     margin-top: 0rem;
     margin-bottom: 0rem;
-    
+    padding: 0.3rem;
 }
 .login-section .login-header{
     font-size: 1rem;
