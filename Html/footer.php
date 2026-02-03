@@ -2,14 +2,14 @@
         <div class="footer-container">
             <div class="footer-brand">
                 <div class="brand-row">
-                    <img src="/G11/assets/images/bird_2.jpg" alt="CarZone logo" class="footer-logo">
+                    <img src="/G11/assets/images/bird_2.jpg" alt="G11 logo" class="footer-logo">
                     <div>
-                        <h2 class="brand-name">CarZone</h2>
-                        <p class="brand-tagline">Drive smart. Choose confident.</p>
+                        <h2 class="brand-name">G11</h2>
+                        <p class="brand-tagline">Style & Joy. Delivered Daily.</p>
                     </div>
                 </div>
                 <p class="brand-description">
-                    Discover trusted vehicles, expert reviews, and everything you need to make your next move on the road.
+                    Discover quality clothes and fun toys for kids. Everything you need to bring smiles and style to your little ones.
                 </p>
                 <div class="social-links">
                     <a href="#" aria-label="Facebook" class="social-link">Facebook</a>
@@ -32,15 +32,15 @@
                 <h3 class="footer-title">Support</h3>
                 <ul class="footer-list">
                     <li><a href="#">Help Center</a></li>
-                    <li><a href="#">Financing</a></li>
-                    <li><a href="#">Warranty</a></li>
-                    <li><a href="#">Insurance</a></li>
+                    <li><a href="#">Shipping Info</a></li>
+                    <li><a href="#">Returns</a></li>
+                    <li><a href="#">Size Guide</a></li>
                 </ul>
             </div>
         </div>
 
         <div class="footer-bottom">
-            <p>© 2026 CarZone. All rights reserved.</p>
+            <p>© 2026 G11 Shop. All rights reserved.</p>
             <div class="footer-bottom-links">
                 <a href="#">Privacy Policy</a>
                 <span>•</span>

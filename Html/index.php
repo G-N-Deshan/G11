@@ -25,34 +25,36 @@
 
 
     <section class="section-1">
-       <h2><strong style="font-size: 7rem;">F</strong>ind Your <strong style="color: blue;">Perfect</strong></h2>
-       <h3><strong style="color: red;">Vehicle</strong> with</h3>
+       <h2><strong  style="color:blue;">
+        <strong style="font-size: 7rem;">F</strong>ashion </strong>  &  
+        <strong style="color: red;">Toys</strong></h2>
+       <h3> for Every Smile</h3>
        <h1>G11</h1>
-    <a href="/G11/Html/pages/buy.php"><button>Browse Vehicles</button></a>
+    <a href="/G11/Html/pages/buy.php"><button>Browse Products</button></a>
        
     </section>
 
     <section class="section-2">
-        <p>Search, compare, and connect with trusted sellers.</p>
-       <p>Start your journey today with G11's smart vehicle marketplace.</p>
+        <p>Discover trendy clothes and fun toys for your little ones.</p>
+       <p>Shop quality products at great prices with G11 today.</p>
     </section>
 
 
     <section class="section-3">
         <div class="feature-card">
-            <img src="../assets/images/car.png" alt="wide selection icon">
+            <img src="../assets/images/clothes-hanger.png" alt="wide selection icon">
             <h2>Wide Selection</h2>
-            <p>Explore a vast inventory of vehicles from various makes and models to find the perfect fit for your needs.</p>
+            <p>Explore a vast collection of stylish clothes and exciting toys to find the perfect items for your kids.</p>
         </div>
         <div class="feature-card">
-            <img src="../assets/images/protection.png" alt="trusted sellers icon">
+            <img src="../assets/images/protective-clothing.png" alt="trusted sellers icon">
             <h2>Trusted Reviews</h2>
-            <p>Read expert and user reviews to make informed decisions about your next vehicle purchase.</p>
+            <p>Read expert and customer reviews to make informed decisions about your next purchase.</p>
         </div>
         <div class="feature-card">
-            <img src="../assets/images/vehicle.png" alt="easy financing icon">
-            <h2>Easy Financing</h2>
-            <p>Get access to competitive financing options tailored to your budget and credit profile.</p>
+            <img src="../assets/images/shopping-bag.png" alt="easy financing icon">
+            <h2>Easy Shopping</h2>
+            <p>Enjoy convenient shopping with secure payments and fast delivery options for all your orders.</p>
         </div>
 
     </section>

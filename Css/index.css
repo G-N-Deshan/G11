@@ -24,38 +24,34 @@ body::-webkit-scrollbar {
 }
 @keyframes changebackground {
     0%{
-        background-image: url(../assets/images/1.jpg);
+        background-image: url(../assets/images/4.jpeg);
     }
-    14.28%{
-        background-image: url(../assets/images/2.jpg);
+    20%{
+        background-image: url(../assets/images/5.jpeg);
     }
-    28.56%{
-        background-image: url(../assets/images/3.jpg);
+    40%{
+        background-image: url(../assets/images/3.jpeg);
     }
-    42.84%{
-        background-image: url(../assets/images/4.jpg);
+    60%{
+        background-image: url(../assets/images/6.jpeg);
     }
-    57.12%{
-        background-image: url(../assets/images/5.jpg);
-    }
-    71.4%{
-        background-image: url(../assets/images/6.jpg);
-    }
-    85.68%{
-        background-image: url(../assets/images/7.jpg);
+    80%{
+        background-image: url(../assets/images/7.jpeg);
     }
     100%{
-        background-image: url(../assets/images/4.jpg);
+        background-image: url(../assets/images/8.jpeg);
     }
+    
+   
 }
 
 .section-1{
-    animation: changebackground 180s infinite;
+    animation: changebackground 120s infinite;
     background-repeat: no-repeat;
     background-size: 60% 100%;
     background-position: right center;
     width: 100%;
-    min-height: 80vh;
+    min-height: 85vh;
     padding: 2rem;
     background-color: #f3f5f7;
     box-sizing: border-box;
