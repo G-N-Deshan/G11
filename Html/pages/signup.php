@@ -10,7 +10,7 @@
     
 </head>
 <body>
-    <?php include '../navbar.php'; ?>
+  
     
     <div class="signup-section">
         <form action="../../php/signup.php" method="POST">
@@ -41,9 +41,9 @@
 
             <strong>or</strong>
             <br><br>
-            Already have an account? <a href="login.html" style="text-decoration: none;">Login</a>
+            Already have an account? <a href="/G11/Html/pages/login.php" style="text-decoration: none;">Login</a>
             <br><br>
-            <a href="../index.html" style="text-decoration: none;">Back to Home</a>
+            <a href="/G11/Html/index.php" style="text-decoration: none;">Back to Home</a>
 
          </form>
     </div>

@@ -7,7 +7,7 @@
     <title>Login</title>
 </head>
 <body>
-    <?php include '../navbar.php'; ?>
+    
     
     <div class="login-section">
         <form action="../../php/login.php" method="POST">
@@ -31,9 +31,9 @@
 
             <strong>or</strong>
             <br><br>
-            Don't have an account? <a href="signup.html" style="text-decoration: none;">Sign Up</a>
+            Don't have an account? <a href="/G11/Html/pages/signup.php" style="text-decoration: none;">Sign Up</a>
             <br><br>
-            <a href="../index.html" style="text-decoration: none;">Back to Home</a>
+            <a href="/G11/Html/index.php" style="text-decoration: none;">Back to Home</a>
 
          </form>
     </div>

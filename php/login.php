@@ -19,15 +19,15 @@
                 $_SESSION['username'] = $user['username'];
                 $_SESSION['email'] = $user['email'];
                 
-                header("Location: ../Html/pages/vehicles.html?login=success");
+                header("Location: /G11/Html/pages/buy.php?login=success");
                 exit();
 
             } else {
-                header("Location: ../Html/pages/login.html");
+                header("Location: /G11/Html/pages/login.php");
                 exit();
             }
         } else {
-            header("Location: ../Html/pages/login.html");
+            header("Location: /G11/Html/pages/login.php");
             exit();
         }
 

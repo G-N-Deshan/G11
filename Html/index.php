@@ -28,7 +28,7 @@
        <h2><strong style="font-size: 7rem;">F</strong>ind Your <strong style="color: blue;">Perfect</strong></h2>
        <h3><strong style="color: red;">Vehicle</strong> with</h3>
        <h1>G11</h1>
-       <a href="pages/vehicles.html"><button>Browse Vehicles</button></a>
+    <a href="/G11/Html/pages/buy.php"><button>Browse Vehicles</button></a>
        
     </section>
 
