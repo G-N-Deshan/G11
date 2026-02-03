@@ -10,22 +10,7 @@
     <link rel="stylesheet" href="../../Css/vehicle.css">  
 </head>
 <body>
-
-    <section class="section-0">
-        <nav class="navbar">
-            <div >
-                <a href="../index.html"><img src="../../assets/images/logo.jpg" alt="logo" class="nav-logo"></a>
-            
-                <button><a href="../index.html" class="nav-link nav-link--home">Home</a></button>
-                <button><a href="vehicles.html" class="nav-link nav-link--vehicles active">Vehicles</a></button>
-                <button><a href="reviews.html" class="nav-link nav-link--reviews">Reviews</a></button>
-                <button><a href="contact.html" class="nav-link nav-link--contact">Contact</a></button>
-                <button><a href="about.html" class="nav-link nav-link--about">About</a></button>
-                <button class="login-btn"><a href="login.html" class="nav-link nav-link--login">Login</a></button>
-            </div>
-
-        </nav>
-    </section>
+    <?php include '../navbar.php'; ?>
 
    
 
@@ -44,8 +29,7 @@
     </section>
 
      <section class="section-2">
-
-            <div class="category-jeep">
+            <div class="category-jeep">               
                 <div class="ford vehicle-card">
                     <img src="../../assets/images/Jeep/ford-1.webp" alt="ford">
                     <h2>Ford Raptor Ranger</h2>
@@ -143,79 +127,7 @@
 
     </section>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <footer class="site-footer">
-        <div class="footer-container">
-            <div class="footer-brand">
-                <div class="brand-row">
-                    <img src="../../assets/images/logo.jpg" alt="CarZone logo" class="footer-logo">
-                    <div>
-                        <h2 class="brand-name">CarZone</h2>
-                        <p class="brand-tagline">Drive smart. Choose confident.</p>
-                    </div>
-                </div>
-                <p class="brand-description">
-                    Discover trusted vehicles, expert reviews, and everything you need to make your next move on the road.
-                </p>
-                <div class="social-links">
-                    <a href="#" aria-label="Facebook" class="social-link">Facebook</a>
-                    <a href="#" aria-label="Instagram" class="social-link">Instagram</a>
-                    <a href="#" aria-label="LinkedIn" class="social-link">LinkedIn</a>
-                </div>
-            </div>
-
-            <div class="footer-column">
-                <h3 class="footer-title">Company</h3>
-                <ul class="footer-list">
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="reviews.html">Reviews</a></li>
-                    <li><a href="vehicles.html">Vehicles</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
-            </div>
-
-            <div class="footer-column">
-                <h3 class="footer-title">Support</h3>
-                <ul class="footer-list">
-                    <li><a href="#">Help Center</a></li>
-                    <li><a href="#">Financing</a></li>
-                    <li><a href="#">Warranty</a></li>
-                    <li><a href="#">Insurance</a></li>
-                </ul>
-            </div>
-
-            
-        </div>
-
-        <div class="footer-bottom">
-            <p>© 2026 CarZone. All rights reserved.</p>
-            <div class="footer-bottom-links">
-                <a href="#">Privacy Policy</a>
-                <span>•</span>
-                <a href="#">Terms of Service</a>
-            </div>
-        </div>
-    </footer>
+    <?php include '../footer.php'; ?>
 
     <script src="../../js/messages.js"></script>
 
