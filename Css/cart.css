@@ -1,0 +1,25 @@
+.cart-icon {
+    position: fixed;
+    top: 1.5rem;
+    right: 1.2rem;
+    width: 44px;
+    height: 44px;
+    background-color: #ffffff;
+    border-radius: 999px;
+    box-shadow: 0 8px 20px rgba(15, 23, 42, 0.15);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.cart-icon img {
+    width: 24px;
+    height: 24px;
+}
+
+.cart-icon:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 12px 24px rgba(15, 23, 42, 0.2);
+}
