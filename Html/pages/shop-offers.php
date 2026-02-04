@@ -1,14 +1,523 @@
 <link rel="stylesheet" href="../../Css/navbar.css">
     <link rel="stylesheet" href="../../Css/footer.css">
+    <link rel="stylesheet" href="../../Css/shop-offers.css">
      
 <?php include '../navbar.php'; ?>
 
-<center><h1>shop offers Page</h1></center>
 
-<h2>1. </h2>
-<h2>2. </h2>
-<h2>3. </h2>
-<h2>4. </h2>
+
+<section class="hero">
+    <div class="hero-content">
+        <h1>Today's Best Deals & Offers</h1>
+        <div class="filter-buttons">
+            <button class="filter-btn active" data-category="kids" onclick="scrollToSection('kids')">Kids Offers</button>
+            <button class="filter-btn" data-category="mens" onclick="scrollToSection('mens')">Mens Offers</button>
+            <button class="filter-btn" data-category="womens" onclick="scrollToSection('womens')">Womens Offers</button>   
+        </div>
+    </div>
+</section>
+
+
+
+
+<section class="offers" id="kids-section">
+        <div class="section-top">
+            <div>
+                <p class="section-small">Limited-time</p>
+                <h2>Hot Offers for Kids</h2>
+                <p class="section-sub">Save on outfits, toys, and bundles picked for busy parents.</p>
+            </div>
+<!--             <a class="section-btn" href="shop-offers.php">Shop Offers</a>
+ -->        </div>
+
+        <div class="offers-list">
+            <article class="offer-card">
+                <span class="offer-badge">- 30%</span>
+                <img src="../../assets/images/protective-clothing.png" alt="Kids wear offer">
+                <h3>Playday Outfit Deal</h3>
+                <p>Soft, breathable outfits designed for everyday fun and comfort for kids.</p>
+                <div class="offer-meta">
+                    <span class="price">Rs. 2,490</span>
+                    <span class="price-old">Rs. 3,550</span>
+                </div>
+                <a href="/G11/Html/pages/add-to-cart.php"><button class="offer-btn">Grab Deal</button></a>
+            </article>
+
+            <article class="offer-card">
+                <span class="offer-badge">Bundle</span>
+                <img src="../../assets/images/shopping-bag.png" alt="Bundle offer">
+                <h3>Outfit + Toy Combo</h3>
+                <p>Perfect bundles combining stylish kidswear with fun toys at special prices.</p>
+                <div class="offer-meta">
+                    <span class="price">Save Rs. 800</span>
+                    <span class="stock">Limited stock</span>
+                </div>
+                <a href="/G11/Html/pages/add-to-cart.php"><button class="offer-btn">Shop Bundle</button></a>
+            </article>
+
+            <article class="offer-card">
+                <span class="offer-badge">Free Shipping</span>
+                <img src="../../assets/images/4.jpeg" alt="Delivery offer">
+                <h3>Weekend Free Delivery</h3>
+                <p>Enjoy free island-wide delivery on orders above Rs. 4,000 this weekend.</p>
+                <div class="offer-meta">
+                    <span class="price">48h only</span>
+                    <span class="stock">Ends Sunday</span>
+                </div>
+                <a href="/G11/Html/pages/add-to-cart.php"><button class="offer-btn">Grab Deal</button></a>
+            </article>
+
+
+
+             <article class="offer-card">
+                <span class="offer-badge">- 20%</span>
+                <img src="../../assets/images/protective-clothing.png" alt="Kids wear offer">
+                <h3>Back-to-School Sale</h3>
+                <p>Comfortable school wear and essential outfits for a fresh new start.</p>
+                <div class="offer-meta">
+                    <span class="price">Rs. 3,500</span>
+                    <span class="stock">Up to 25% Off</span>
+                </div>
+                <a href="/G11/Html/pages/add-to-cart.php"><button class="offer-btn">Grab Deal</button></a>
+            </article>
+
+
+
+            <article class="offer-card">
+                <span class="offer-badge">Bundle</span>
+                <img src="../../assets/images/shopping-bag.png" alt="Bundle offer">
+                <h3>Baby Comfort Collection </h3>
+                <p>Gentle fabrics and safe toys specially designed for babies and toddlers.</p>
+                <div class="offer-meta">
+                    <span class="price">Rs. 2,750</span>
+                    <span class="price-old">Rs. 4,000</span>
+                </div>
+                <a href="/G11/Html/pages/add-to-cart.php"><button class="offer-btn">Shop Bundle</button></a>
+            </article>
+
+
+
+
+            <article class="offer-card">
+                <span class="offer-badge">Free Shipping</span>
+                <img src="../../assets/images/4.jpeg" alt="Delivery offer">
+                <h3>Kids Party Wear Special</h3>
+                <p>Stylish outfits that make every birthday and celebration extra special.</p>
+                <div class="offer-meta">
+                    <span class="price">18h only</span>
+                    <span class="stock">Ends SUN DAY</span>
+                </div>
+                <a href="/G11/Html/pages/add-to-cart.php"><button class="offer-btn">Grab Deal</button></a>
+            </article>
+
+
+            
+             <article class="offer-card">
+                <span class="offer-badge">-60%</span>
+                <img src="../../assets/images/protective-clothing.png" alt="Kids wear offer">
+                <h3>Toy Fun Festival</h3>
+                <p>Educational and fun toys that keep kids happy and learning all day.</p>
+                <div class="offer-meta">
+                    <span class="price">Rs. 999</span>
+                    <span class="price-old">Rs. 1200</span>
+                </div>
+                <a href="/G11/Html/pages/add-to-cart.php"><button class="offer-btn">Grab Deal</button></a>
+            </article>
+
+
+
+
+            <article class="offer-card">
+                <span class="offer-badge">Bundle</span>
+                <img src="../../assets/images/shopping-bag.png" alt="Bundle offer">
+                <h3>Seasonal Fashion Sale</h3>
+                <p>Trending seasonal clothing for kids at unbeatable prices.</p>
+                <div class="offer-meta">
+                    <span class="price">Save Rs. 500</span>
+                    <span class="stock">Limited stock</span>
+                </div>
+                <a href="/G11/Html/pages/add-to-cart.php"><button class="offer-btn">Shop Bundle</button></a>
+            </article>
+
+
+
+
+
+            <article class="offer-card">
+                <span class="offer-badge">Free Shipping</span>
+                <img src="../../assets/images/4.jpeg" alt="Delivery offer">
+                <h3>Family Savings Pack</h3>
+                <p>Shop for siblings together and unlock exclusive family discounts.</p>
+                <div class="offer-meta">
+                    <span class="price">Save More</span>
+                    <span class="stock">Family Deal</span>
+                </div>
+                <a href="/G11/Html/pages/add-to-cart.php"><button class="offer-btn">Grab Deal</button></a>
+            </article>
+
+
+
+
+
+             <article class="offer-card">
+                <span class="offer-badge">- 48%</span>
+                <img src="../../assets/images/protective-clothing.png" alt="Kids wear offer">
+                <h3>Clearance Mega Sale</h3>
+                <p>Last chance to grab popular items before they re gone forever.</p>
+                <div class="offer-meta">
+                    <span class="price">Rs. 4855</span>
+                    <span class="price-old">Rs. 7000</span>
+                </div>
+                <a href="/G11/Html/pages/add-to-cart.php"><button class="offer-btn">Grab Deal</button></a>
+            </article>
+
+
+
+
+
+            <article class="offer-card">
+                <span class="offer-badge">Bundle</span>
+                <img src="../../assets/images/shopping-bag.png" alt="Bundle offer">
+                <h3>New Arrivals Launch Offer</h3>
+                <p>Fresh styles and latest toys just arrived — shop first and save.</p>
+                <div class="offer-meta">
+                    <span class="price">Save Rs. 1900</span>
+                    <span class="stock">Just In</span>
+                </div>
+                <a href="/G11/Html/pages/add-to-cart.php"><button class="offer-btn">Shop Bundle</button></a>
+            </article>
+
+
+
+
+
+            <article class="offer-card">
+                <span class="offer-badge">Free Shipping</span>
+                <img src="../../assets/images/4.jpeg" alt="Delivery offer">
+                <h3>Gift-Ready Bundles</h3>
+                <p>Ready-made gift sets perfect for birthdays and special occasions.</p>
+                <div class="offer-meta">
+                    <span class="price">Perfect Gifts</span>
+                    <span class="stock">No Wrapping Needed</span>
+                </div>
+                <a href="/G11/Html/pages/add-to-cart.php"><button class="offer-btn">Grab Deal</button></a>
+            </article>
+
+
+
+
+             <article class="offer-card">
+                <span class="offer-badge">-10%</span>
+                <img src="../../assets/images/protective-clothing.png" alt="Kids wear offer">
+                <h3>Kids Essentials Saver</h3>
+                <p>Daily wear essentials and basics at budget-friendly prices.</p>
+                <div class="offer-meta">
+                    <span class="price">Rs. 2,490</span>
+                    <span class="price-old">Rs. 3,550</span>
+                </div>
+                <a href="/G11/Html/pages/add-to-cart.php"><button class="offer-btn">Grab Deal</button></a>
+            </article>
+
+
+
+
+
+            <article class="offer-card">
+                <span class="offer-badge">Bundle</span>
+                <img src="../../assets/images/shopping-bag.png" alt="Bundle offer">
+                <h3>Member Exclusive Deals</h3>
+                <p>Special discounts available only for logged-in G11 members.</p>
+                <div class="offer-meta">
+                    <span class="price">Members Only</span>
+                    <span class="stock">Extra Savings</span>
+                </div>
+                <a href="/G11/Html/pages/add-to-cart.php"><button class="offer-btn">Shop Bundle</button></a>
+            </article>
+
+
+
+
+            <article class="offer-card">
+                <span class="offer-badge">Free Shipping</span>
+                <img src="../../assets/images/4.jpeg" alt="Delivery offer">
+                <h3>Festival Special Offer</h3>
+                <p>Celebrate festive moments with colorful outfits and joyful toys.</p>
+                <div class="offer-meta">
+                    <span class="price">Festival Vibes</span>
+                    <span class="stock">Limited Period</span>
+                </div>
+                <a href="/G11/Html/pages/add-to-cart.php"><button class="offer-btn">Grab Deal</button></a>
+            </article>
+
+
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+    <section class="offers" id="mens-section">
+        <div class="section-top">
+            <div>
+                <p class="section-small">Limited-time</p>
+                <h2>Hot Offers for MENS</h2>
+                <p class="section-sub">Save on cloths, and bundles picked for busy Partners.</p>
+            </div>
+       </div>
+
+        <div class="offers-list">
+            <article class="offer-card">
+                <span class="offer-badge">- 30%</span>
+                <img src="../../assets/images/protective-clothing.png" alt="Mens wear offer">
+                <h3>Smart Casual Essentials</h3>
+                <p>Upgrade your everyday style with breathable shirts, polos, and chinos made for comfort and confidence.</p>
+                <div class="offer-meta">
+                    <span class="price">Rs. 2,490</span>
+                    <span class="price-old">Rs. 3,550</span>
+                </div>
+                <a href="/G11/Html/pages/add-to-cart.php"><button class="offer-btn">Grab Deal</button></a>
+            </article>
+
+
+
+            <article class="offer-card">
+                <span class="offer-badge">Bundle</span>
+                <img src="../../assets/images/shopping-bag.png" alt="Bundle offer">
+                <h3>Office Wear Power Deals</h3>
+                <p>Sharp formal shirts, trousers, and blazers designed for workdays and meetings.</p>
+                <div class="offer-meta">
+                    <span class="price">Save Rs. 800</span>
+                    <span class="stock">Most Purchased This Week</span>
+                </div>
+                <a href="/G11/Html/pages/add-to-cart.php"><button class="offer-btn">Shop Bundle</button></a>
+            </article>
+
+
+
+            <article class="offer-card">
+                <span class="offer-badge">Free Shipping</span>
+                <img src="../../assets/images/4.jpeg" alt="Delivery offer">
+                <h3>Weekend Comfort Sale</h3>
+                <p>Relaxed t-shirts, shorts, and joggers perfect for weekends and travel.</p>
+                <div class="offer-meta">
+                    <span class="price">20h only</span>
+                    <span class="stock">Trending Now</span>
+                </div>
+                <a href="/G11/Html/pages/add-to-cart.php"><button class="offer-btn">Grab Deal</button></a>
+            </article>
+
+
+
+             <article class="offer-card">
+                <span class="offer-badge">- 35%</span>
+                <img src="../../assets/images/protective-clothing.png" alt="Mens wear offer">
+                <h3>New Men's Arrivals</h3>
+                <p>Fresh fashion drops with modern fits and trending colors.</p>
+                <div class="offer-meta">
+                    <span class="price">Rs. 3,500</span>
+                    <span class="stock">Up to 35% Off</span>
+                </div>
+                <a href="/G11/Html/pages/add-to-cart.php"><button class="offer-btn">Grab Deal</button></a>
+            </article>
+
+
+
+            <article class="offer-card">
+                <span class="offer-badge">Bundle</span>
+                <img src="../../assets/images/shopping-bag.png" alt="Bundle offer">
+                <h3>Men's Combo Saver </h3>
+                <p>Buy shirt + pant or t-shirt + jeans combos and save more instantly.</p>
+                <div class="offer-meta">
+                    <span class="price">Rs. 2,750</span>
+                    <span class="stock">Auto Bundle Discount Applied</span>
+                </div>
+                <a href="/G11/Html/pages/add-to-cart.php"><button class="offer-btn">Shop Bundle</button></a>
+            </article>
+
+
+
+
+            <article class="offer-card">
+                <span class="offer-badge">Free Shipping</span>
+                <img src="../../assets/images/4.jpeg" alt="Delivery offer">
+                <h3>Seasonal Men's Clearance</h3>
+                <p>Last season favorites at unbeatable prices before they're gone</p>
+                <div class="offer-meta">
+                    <span class="price">15h only</span>
+                    <span class="stock">Stock Running Out</span>
+                </div>
+                <a href="/G11/Html/pages/add-to-cart.php"><button class="offer-btn">Grab Deal</button></a>
+            </article>
+
+
+            
+             <article class="offer-card">
+                <span class="offer-badge">-45%</span>
+                <img src="../../assets/images/protective-clothing.png" alt="Men's wear offer">
+                <h3>Men's Premium Picks</h3>
+                <p>High-quality fabrics and premium designs for a refined look.</p>
+                <div class="offer-meta">
+                    <span class="price">Rs. 1800</span>
+                    <span class="price-old">Rs. 2200</span>
+                </div>
+                <a href="/G11/Html/pages/add-to-cart.php"><button class="offer-btn">Grab Deal</button></a>
+            </article>
+    </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <section class="offers" id="womens-section">
+        <div class="section-top">
+            <div>
+                <p class="section-small">Limited-time</p>
+                <h2>Hot Offers for Women</h2>
+                <p class="section-sub">Save on Cloths, and bundles picked for busy Partners.</p>
+            </div>
+       </div>
+
+
+        <div class="offers-list">
+            <article class="offer-card">
+                <span class="offer-badge">- 30%</span>
+                <img src="../../assets/images/protective-clothing.png" alt="Women wear offer">
+                <h3>Everyday Fashion Deals</h3>
+                <p>Comfortable and stylish tops, dresses, and casual wear for daily use.</p>
+                <div class="offer-meta">
+                    <span class="price">Rs. 2,400</span>
+                    <span class="price-old">Rs. 3,500</span>
+                </div>
+                <a href="/G11/Html/pages/add-to-cart.php"><button class="offer-btn">Grab Deal</button></a>
+            </article>
+
+
+
+            <article class="offer-card">
+                <span class="offer-badge">Bundle</span>
+                <img src="../../assets/images/shopping-bag.png" alt="Bundle offer">
+                <h3>Work & Office Wear Sale</h3>
+                <p>Elegant blouses, pants, and formal dresses designed for a confident professional look.</p>
+                <div class="offer-meta">
+                    <span class="price">Save Rs. 1000</span>
+                    <span class="stock">Top Rated Office Styles</span>
+                </div>
+                <a href="/G11/Html/pages/add-to-cart.php"><button class="offer-btn">Shop Bundle</button></a>
+            </article>
+
+
+
+            <article class="offer-card">
+                <span class="offer-badge">Free Shipping</span>
+                <img src="../../assets/images/4.jpeg" alt="Delivery offer">
+                <h3>Women's Style Combos</h3>
+                <p>Mix and match outfits with special combo discounts.</p>
+                <div class="offer-meta">
+                    <span class="price">20h only</span>
+                    <span class="stock">Ends Sunday</span>
+                </div>
+                <a href="/G11/Html/pages/add-to-cart.php"><button class="offer-btn">Grab Deal</button></a>
+            </article>
+
+
+
+             <article class="offer-card">
+                <span class="offer-badge">- 25%</span>
+                <img src="../../assets/images/protective-clothing.png" alt="Kids wear offer">
+                <h3>Party & Occasion Wear</h3>
+                <p>Stand out with trendy party dresses and festive outfits.</p>
+                <div class="offer-meta">
+                    <span class="price">Rs. 3,100</span>
+                    <span class="stock">Occasion Ready | Limited Stock</span>
+                </div>
+                <a href="/G11/Html/pages/add-to-cart.php"><button class="offer-btn">Grab Deal</button></a>
+            </article>
+
+
+
+            <article class="offer-card">
+                <span class="offer-badge">Bundle</span>
+                <img src="../../assets/images/shopping-bag.png" alt="Bundle offer">
+                <h3>New Women's Arrivals </h3>
+                <p>Latest trends inspired by modern fashion and seasonal styles.</p>
+                <div class="offer-meta">
+                    <span class="price">Rs. 2,000</span>
+                    <span class="price-old">Rs. 2,500</span>
+</div>
+                <a href="/G11/Html/pages/add-to-cart.php"><button class="offer-btn">Shop Bundle</button></a>
+            </article>
+
+
+
+
+            <article class="offer-card">
+                <span class="offer-badge">Free Shipping</span>
+                <img src="../../assets/images/4.jpeg" alt="Delivery offer">
+                <h3>Women's Comfort Collection</h3>
+                <p>Soft fabrics, relaxed fits, and breathable designs for all-day comfort.</p>
+                <div class="offer-meta">
+                    <span class="price">40h only</span>
+                    <span class="stock">Ends SUN DAY</span>
+                </div>
+                <a href="/G11/Html/pages/add-to-cart.php"><button class="offer-btn">Grab Deal</button></a>
+            </article>
+
+
+            
+             <article class="offer-card">
+                <span class="offer-badge">-60%</span>
+                <img src="../../assets/images/protective-clothing.png" alt="Kids wear offer">
+                <h3>Seasonal Clearance Sale</h3>
+                <p>Popular styles at reduced prices for a limited time only.</p>
+                <div class="offer-meta">
+                    <span class="price">Rs. 999</span>
+                    <span class="price-old">Rs. 1500</span>
+                </div>
+                <a href="/G11/Html/pages/add-to-cart.php"><button class="offer-btn">Grab Deal</button></a>
+            </article>
+
+
+
+
+        </div>
+    </section>
+
+
+
 
 
 <?php include '../footer.php'; ?>
+
+<script>
+    function scrollToSection(category) {
+        let sectionId = category + '-section';
+        let section = document.getElementById(sectionId);
+        
+        if (section) {
+            section.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+        
+        
+        document.querySelectorAll('.filter-btn').forEach(btn => {
+            btn.classList.remove('active');
+        });
+        event.target.classList.add('active');
+    }
+</script>

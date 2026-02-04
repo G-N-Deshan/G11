@@ -45,8 +45,8 @@
             <article class="offer-card">
                 <span class="offer-badge">-30%</span>
                 <img src="../../assets/images/protective-clothing.png" alt="Kids wear offer">
-                <h3>Playday Outfit Set</h3>
-                <p>Soft cotton essentials for everyday adventures.</p>
+                <h3>Playday Outfit Deal</h3>
+                <p>Soft, breathable outfits designed for everyday fun and comfort for kids.</p>
                 <div class="offer-meta">
                     <span class="price">Rs. 2,490</span>
                     <span class="price-old">Rs. 3,550</span>
@@ -57,8 +57,8 @@
             <article class="offer-card">
                 <span class="offer-badge">Bundle</span>
                 <img src="../../assets/images/shopping-bag.png" alt="Bundle offer">
-                <h3>Outfit + Toy Bundle</h3>
-                <p>Mix and match for extra savings this week.</p>
+                <h3>Outfit + Toy Combo</h3>
+                <p>Perfect bundles combining stylish kidswear with fun toys at special prices.</p>
                 <div class="offer-meta">
                     <span class="price">Save Rs. 800</span>
                     <span class="stock">Limited stock</span>
@@ -68,9 +68,9 @@
 
             <article class="offer-card">
                 <span class="offer-badge">Free Shipping</span>
-                <img src="../../assets/images/suv-car.png" alt="Delivery offer">
+                <img src="../../assets/images/4.jpeg" alt="Delivery offer">
                 <h3>Weekend Free Delivery</h3>
-                <p>Orders over Rs. 4,000 ship free island-wide.</p>
+                <p>Enjoy free island-wide delivery on orders above Rs. 4,000 this weekend.</p>
                 <div class="offer-meta">
                     <span class="price">48h only</span>
                     <span class="stock">Ends Sunday</span>
@@ -93,7 +93,7 @@
         <div class="arrivals-list">
             <article class="arrival-card">
                 <div class="arrival-media">
-                    <img src="../../assets/images/1.webp" alt="New arrival outfit">
+                    <img src="../../assets/images/10.jpeg" alt="New arrival outfit">
                     <span class="arrival-badge">New</span>
                 </div>
                 <h3>Rainbow Hoodie Set</h3>
@@ -106,7 +106,7 @@
 
             <article class="arrival-card">
                 <div class="arrival-media">
-                    <img src="../../assets/images/2.webp" alt="New arrival toy">
+                    <img src="../../assets/images/5.jpeg" alt="New arrival toy">
                     <span class="arrival-badge">New</span>
                 </div>
                 <h3>Soft Buddy Plush</h3>
