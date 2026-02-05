@@ -14,14 +14,14 @@
         
         if(!filter_var($email, FILTER_VALIDATE_EMAIL)){
             $_SESSION['error'] = "Invalid email format!";
-            header("Location: ../Html/pages/signup.html");
+            header("Location: /G11/Html/pages/signup.php");
             exit();
         }
 
     
         if(strlen($password) < 6){
             $_SESSION['error'] = "Password must be at least 6 characters!";
-            header("Location: ../Html/pages/signup.html");
+            header("Location: /G11/Html/pages/signup.php");
             exit();
         }
 
@@ -31,7 +31,7 @@
         
         if(mysqli_num_rows($result) > 0){
             $_SESSION['error'] = "Email already registered!";
-            header("Location: ../Html/pages/signup.html");
+            header("Location: /G11/Html/pages/signup.php");
             exit();
         }
 
@@ -41,11 +41,11 @@
 
         if(mysqli_query($conn, $sql)){
             $_SESSION['success'] = "Signup successful! Please login.";
-            header("Location: ../Html/pages/login.html");
+            header("Location: /G11/Html/pages/login.php");
             exit();
         } else {
             $_SESSION['error'] = "Error: cannot sign up. " . mysqli_error($conn);
-            header("Location: ../Html/pages/signup.html");
+            header("Location: /G11/Html/pages/signup.php");
             exit();
         }
 
