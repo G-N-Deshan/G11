@@ -232,6 +232,11 @@ body::-webkit-scrollbar {
 .offer-card a,
 .arrival-card a {
     text-decoration: none;
+}
+
+/* Only apply block display and width to non-button links */
+.offer-card a:not(.offer-btn),
+.arrival-card a:not(.arrival-btn) {
     display: block;
     width: 100%;
 }
@@ -258,13 +263,17 @@ body::-webkit-scrollbar {
     border: none;
     background-color: #2563eb;
     color: #ffffff;
-    padding: 0.7rem 1.2rem;
+    padding: 0.7rem 0.2rem;
     border-radius: 0.75rem;
     cursor: pointer;
     font-weight: 600;
     width: 100%;
     font-size: 0.95rem;
     transition: background-color 0.3s ease, transform 0.2s ease;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    
 }
 
 .offer-btn:hover,
