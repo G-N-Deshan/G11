@@ -120,11 +120,57 @@ body{
     margin: 0;
 }
 
+
+
+
+
+
+.section-0 .logout-btn{
+    position:relative;
+    right: -5rem;
+    top: 0rem;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    margin: 0;
+}
+
+.section-0 .user-profile-btn{
+    position:relative;
+    right: -4rem;
+    top: 0rem;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    margin: 0;
+}
+
+.section-0 .navbar .nav-link--logout:hover{
+    color: #ef4444;
+}
+
+.section-0 .navbar .nav-link--logout{
+    transition-duration: 0.25s;
+    transition-timing-function: ease;
+}
+
+.section-0 .user-profile-btn .nav-link i {
+    font-size: 1.3rem;
+    vertical-align: middle;
+}
+
+
+
 .section-0 button{
     background-color: transparent;
     border: none;
     cursor: pointer; 
 }
+
+
+
 
 @media only screen and (max-width: 768px) {
     .section-0 .navbar .nav-link {

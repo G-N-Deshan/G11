@@ -51,7 +51,7 @@
                     <span class="price">Rs. 2,490</span>
                     <span class="price-old">Rs. 3,550</span>
                 </div>
-                <a href="/G11/Html/pages/add-to-cart.php"><button class="offer-btn">Grab Deal</button></a>
+                <a href="/G11/Html/pages/add-to-cart.php?product_id=1" class="offer-btn">Grab Deal</a>
             </article>
 
             <article class="offer-card">
@@ -63,7 +63,7 @@
                     <span class="price">Save Rs. 800</span>
                     <span class="stock">Limited stock</span>
                 </div>
-                <a href="/G11/Html/pages/add-to-cart.php"><button class="offer-btn">Shop Bundle</button></a>
+                <a href="/G11/Html/pages/add-to-cart.php?product_id=2" class="offer-btn">Shop Bundle</a>
             </article>
 
             <article class="offer-card">
@@ -75,7 +75,7 @@
                     <span class="price">48h only</span>
                     <span class="stock">Ends Sunday</span>
                 </div>
-                <button class="offer-btn">See Details</button>
+                <a href="/G11/Html/pages/add-to-cart.php?product_id=3" class="offer-btn">Grab Deal</a>
             </article>
         </div>
     </section>
@@ -100,7 +100,7 @@
                 <p>Cozy layers for cool evenings.</p>
                 <div class="arrival-meta">
                     <span class="price">Rs. 3,200</span>
-                    <a href="/G11/Html/pages/add-to-cart.php"><button class="arrival-btn">Add to cart</button></a>
+                    <a href="/G11/Html/pages/add-to-cart.php?product_id=30" class="arrival-btn">Add to cart</a>
                 </div>
             </article>
 
@@ -113,7 +113,7 @@
                 <p>Gentle, washable plush for toddlers.</p>
                 <div class="arrival-meta">
                     <span class="price">Rs. 1,850</span>
-                    <a href="/G11/Html/pages/add-to-cart.php"><button class="arrival-btn">Add to cart</button></a>
+                    <a href="/G11/Html/pages/add-to-cart.php?product_id=31" class="arrival-btn">Add to cart</a>
                 </div>
             </article>
 
@@ -126,7 +126,7 @@
                 <p>Lightweight and breezy for playtime.</p>
                 <div class="arrival-meta">
                     <span class="price">Rs. 2,900</span>
-                    <a href="/G11/Html/pages/add-to-cart.php"><button class="arrival-btn">Add to cart</button></a>
+                    <a href="/G11/Html/pages/add-to-cart.php?product_id=32" class="arrival-btn">Add to cart</a>
                 </div>
             </article>
         </div>

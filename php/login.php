@@ -15,11 +15,19 @@
             $user = mysqli_fetch_assoc($result);
 
             if(password_verify($password, $user['password_hash'])){
-                $_SESSION['user_id'] = $user['id'];
+                $_SESSION['user_id'] = $user['user_id'];
                 $_SESSION['username'] = $user['username'];
                 $_SESSION['email'] = $user['email'];
                 
-                header("Location: /G11/Html/pages/buy.php?login=success");
+               $redirect_url = $_SESSION['redirect_after_login'] ?? '/G11/Html/pages/buy.php';
+                unset($_SESSION['redirect_after_login']); 
+
+               if (strpos($redirect_url, 'add-to-cart.php') !== false) {
+                    header("Location: $redirect_url");
+                } else {
+                    $separator = (strpos($redirect_url, '?') !== false) ? '&' : '?';
+                    header("Location: {$redirect_url}{$separator}login=success");
+                }
                 exit();
 
             } else {

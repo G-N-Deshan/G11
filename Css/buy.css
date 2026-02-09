@@ -244,12 +244,49 @@ body::-webkit-scrollbar {
     font-size: 0.9rem;
 }
 
+.offer-card a,
+.arrival-card a {
+    text-decoration: none;
+    display: block;
+    width: 100%;
+}
+
+.offer-card a.offer-btn,
+.arrival-card a.arrival-btn {
+    background-color: #2563eb;
+    color: #ffffff;
+    padding: 0.7rem 0.2rem;
+    border-radius: 0.75rem;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 0.95rem;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    text-align: center;
+    border: none;
+    display: block;
+    width: 100%;
+    pointer-events: auto !important;
+    z-index: 10;
+}
+
+.offer-card a.offer-btn:hover,
+.arrival-card a.arrival-btn:hover {
+    background-color: #1e40af;
+    transform: translateY(-1px);
+}
+
+.offer-card a button,
+.arrival-card a button {
+    display: block;
+    width: 100%;
+}
+
 .offer-btn,
 .arrival-btn {
     border: none;
     background-color: #2563eb;
     color: #ffffff;
-    padding: 0.7rem 1.2rem;
+    padding: 0.7rem 0.2rem;
     border-radius: 0.75rem;
     cursor: pointer;
     font-weight: 600;
