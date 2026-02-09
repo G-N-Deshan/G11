@@ -1,5 +1,4 @@
--- Insert Products Data
--- Kids Offers (15 items)
+
 
 INSERT INTO products (name, category, description, price, original_price, discount_percentage, image_url, stock, badge) VALUES
 ('Playday Outfit Deal', 'kids-offers', 'Soft, breathable outfits designed for everyday fun and comfort for kids.', 2490.00, 3550.00, 30, '../../assets/images/protective-clothing.png', 50, '-30%'),
@@ -18,7 +17,7 @@ INSERT INTO products (name, category, description, price, original_price, discou
 ('Member Exclusive Deals', 'kids-offers', 'Special discounts available only for logged-in G11 members.', 3200.00, 4000.00, 20, '../../assets/images/shopping-bag.png', 30, 'Bundle'),
 ('Festival Special Offer', 'kids-offers', 'Celebrate festive moments with colorful outfits and joyful toys.', 4200.00, NULL, 0, '../../assets/images/4.jpeg', 25, 'Free Shipping');
 
--- Mens Offers (7 items)
+
 
 INSERT INTO products (name, category, description, price, original_price, discount_percentage, image_url, stock, badge) VALUES
 ('Smart Casual Essentials', 'mens-offers', 'Upgrade your everyday style with breathable shirts, polos, and chinos made for comfort and confidence.', 2490.00, 3550.00, 30, '../../assets/images/protective-clothing.png', 50, '-30%'),
@@ -29,7 +28,7 @@ INSERT INTO products (name, category, description, price, original_price, discou
 ('Seasonal Men\'s Clearance', 'mens-offers', 'Last season favorites at unbeatable prices before they\'re gone.', 3200.00, NULL, 0, '../../assets/images/4.jpeg', 30, 'Free Shipping'),
 ('Men\'s Premium Picks', 'mens-offers', 'High-quality fabrics and premium designs for a refined look.', 1800.00, 2200.00, 45, '../../assets/images/protective-clothing.png', 25, '-45%');
 
--- Womens Offers (7 items)
+
 
 INSERT INTO products (name, category, description, price, original_price, discount_percentage, image_url, stock, badge) VALUES
 ('Everyday Fashion Deals', 'womens-offers', 'Comfortable and stylish tops, dresses, and casual wear for daily use.', 2400.00, 3500.00, 30, '../../assets/images/protective-clothing.png', 55, '-30%'),
@@ -40,7 +39,7 @@ INSERT INTO products (name, category, description, price, original_price, discou
 ('Women\'s Comfort Collection', 'womens-offers', 'Soft fabrics, relaxed fits, and breathable designs for all-day comfort.', 2800.00, NULL, 0, '../../assets/images/4.jpeg', 60, 'Free Shipping'),
 ('Seasonal Clearance Sale', 'womens-offers', 'Popular styles at reduced prices for a limited time only.', 999.00, 1500.00, 60, '../../assets/images/protective-clothing.png', 40, '-60%');
 
--- New Arrivals (3 items)
+
 
 INSERT INTO products (name, category, description, price, original_price, discount_percentage, image_url, stock, badge) VALUES
 
