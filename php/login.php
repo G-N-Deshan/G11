@@ -19,12 +19,10 @@
                 $_SESSION['username'] = $user['username'];
                 $_SESSION['email'] = $user['email'];
                 
-                // Check if there's a redirect URL stored
-                $redirect_url = $_SESSION['redirect_after_login'] ?? '/G11/Html/pages/buy.php';
-                unset($_SESSION['redirect_after_login']); // Clear the redirect URL
+               $redirect_url = $_SESSION['redirect_after_login'] ?? '/G11/Html/pages/buy.php';
+                unset($_SESSION['redirect_after_login']); 
 
-                // If redirecting to add-to-cart, don't append login query
-                if (strpos($redirect_url, 'add-to-cart.php') !== false) {
+               if (strpos($redirect_url, 'add-to-cart.php') !== false) {
                     header("Location: $redirect_url");
                 } else {
                     $separator = (strpos($redirect_url, '?') !== false) ? '&' : '?';

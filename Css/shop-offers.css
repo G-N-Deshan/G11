@@ -234,7 +234,7 @@ body::-webkit-scrollbar {
     text-decoration: none;
 }
 
-/* Only apply block display and width to non-button links */
+
 .offer-card a:not(.offer-btn),
 .arrival-card a:not(.arrival-btn) {
     display: block;

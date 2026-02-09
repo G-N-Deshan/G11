@@ -2,7 +2,6 @@
 session_start();
 include '../../php/db.php';
 
-// Check if user is logged in
 if (!isset($_SESSION['user_id'])) {
     $_SESSION['redirect_after_login'] = '/G11/Html/pages/cart.php';
     $_SESSION['login_message'] = 'Please login to view your cart';
@@ -12,7 +11,6 @@ if (!isset($_SESSION['user_id'])) {
 
 $user_id = $_SESSION['user_id'];
 
-// Get cart items with product details
 $query = "SELECT c.*, p.name, p.price, p.image_url, p.stock 
           FROM cart_items c 
           INNER JOIN products p ON c.product_id = p.id 

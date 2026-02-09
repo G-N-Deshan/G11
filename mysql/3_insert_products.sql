@@ -43,6 +43,9 @@ INSERT INTO products (name, category, description, price, original_price, discou
 -- New Arrivals (3 items)
 
 INSERT INTO products (name, category, description, price, original_price, discount_percentage, image_url, stock, badge) VALUES
+
 ('Rainbow Hoodie Set', 'new-arrivals', 'Cozy layers for cool evenings.', 3200.00, NULL, 0, '../../assets/images/10.jpeg', 40, 'New'),
+
 ('Soft Buddy Plush', 'new-arrivals', 'Gentle, washable plush for toddlers.', 1850.00, NULL, 0, '../../assets/images/5.jpeg', 50, 'New'),
+
 ('Sunny Day Dress', 'new-arrivals', 'Lightweight and breezy for playtime.', 2900.00, NULL, 0, '../../assets/images/3.jpeg', 45, 'New');
