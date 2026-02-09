@@ -25,9 +25,9 @@
 
 
     <section class="section-1">
-       <h2><strong  style="color:blue;">
+       <h2><strong  >
         <strong style="font-size: 7rem;">F</strong>ashion </strong>  &  
-        <strong style="color: red;">Toys</strong></h2>
+        <strong >Toys</strong></h2>
        <h3> for Every Smile</h3>
        <h1>G11</h1>
     <a href="/G11/Html/pages/buy.php"><button>Browse Products</button></a>
