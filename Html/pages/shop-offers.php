@@ -40,7 +40,7 @@
                     <span class="price">Rs. 2,490</span>
                     <span class="price-old">Rs. 3,550</span>
                 </div>
-                <a href="/G11/Html/pages/add-to-cart.php"><button class="offer-btn">Grab Deal</button></a>
+                <a href="/G11/Html/pages/add-to-cart.php?product_id=1" class="offer-btn">Grab Deal</a>
             </article>
 
             <article class="offer-card">
@@ -52,7 +52,7 @@
                     <span class="price">Save Rs. 800</span>
                     <span class="stock">Limited stock</span>
                 </div>
-                <a href="/G11/Html/pages/add-to-cart.php"><button class="offer-btn">Shop Bundle</button></a>
+                <a href="/G11/Html/pages/add-to-cart.php?product_id=2" class="offer-btn">Shop Bundle</a>
             </article>
 
             <article class="offer-card">
@@ -64,7 +64,7 @@
                     <span class="price">48h only</span>
                     <span class="stock">Ends Sunday</span>
                 </div>
-                <a href="/G11/Html/pages/add-to-cart.php"><button class="offer-btn">Grab Deal</button></a>
+                <a href="/G11/Html/pages/add-to-cart.php?product_id=3" class="offer-btn">Grab Deal</a>
             </article>
 
 
@@ -78,7 +78,7 @@
                     <span class="price">Rs. 3,500</span>
                     <span class="stock">Up to 25% Off</span>
                 </div>
-                <a href="/G11/Html/pages/add-to-cart.php"><button class="offer-btn">Grab Deal</button></a>
+                <a href="/G11/Html/pages/add-to-cart.php?product_id=4" class="offer-btn">Grab Deal</a>
             </article>
 
 
@@ -92,7 +92,7 @@
                     <span class="price">Rs. 2,750</span>
                     <span class="price-old">Rs. 4,000</span>
                 </div>
-                <a href="/G11/Html/pages/add-to-cart.php"><button class="offer-btn">Shop Bundle</button></a>
+                <a href="/G11/Html/pages/add-to-cart.php?product_id=5" class="offer-btn">Shop Bundle</a>
             </article>
 
 
@@ -107,7 +107,7 @@
                     <span class="price">18h only</span>
                     <span class="stock">Ends SUN DAY</span>
                 </div>
-                <a href="/G11/Html/pages/add-to-cart.php"><button class="offer-btn">Grab Deal</button></a>
+                <a href="/G11/Html/pages/add-to-cart.php?product_id=6" class="offer-btn">Grab Deal</a>
             </article>
 
 
@@ -121,7 +121,7 @@
                     <span class="price">Rs. 999</span>
                     <span class="price-old">Rs. 1200</span>
                 </div>
-                <a href="/G11/Html/pages/add-to-cart.php"><button class="offer-btn">Grab Deal</button></a>
+                <a href="/G11/Html/pages/add-to-cart.php?product_id=7" class="offer-btn">Grab Deal</a>
             </article>
 
 
@@ -136,7 +136,7 @@
                     <span class="price">Save Rs. 500</span>
                     <span class="stock">Limited stock</span>
                 </div>
-                <a href="/G11/Html/pages/add-to-cart.php"><button class="offer-btn">Shop Bundle</button></a>
+                <a href="/G11/Html/pages/add-to-cart.php?product_id=8" class="offer-btn">Shop Bundle</a>
             </article>
 
 
@@ -152,7 +152,7 @@
                     <span class="price">Save More</span>
                     <span class="stock">Family Deal</span>
                 </div>
-                <a href="/G11/Html/pages/add-to-cart.php"><button class="offer-btn">Grab Deal</button></a>
+                <a href="/G11/Html/pages/add-to-cart.php?product_id=9" class="offer-btn">Grab Deal</a>
             </article>
 
 
@@ -168,7 +168,7 @@
                     <span class="price">Rs. 4855</span>
                     <span class="price-old">Rs. 7000</span>
                 </div>
-                <a href="/G11/Html/pages/add-to-cart.php"><button class="offer-btn">Grab Deal</button></a>
+                <a href="/G11/Html/pages/add-to-cart.php?product_id=10" class="offer-btn">Grab Deal</a>
             </article>
 
 
@@ -184,7 +184,7 @@
                     <span class="price">Save Rs. 1900</span>
                     <span class="stock">Just In</span>
                 </div>
-                <a href="/G11/Html/pages/add-to-cart.php"><button class="offer-btn">Shop Bundle</button></a>
+                <a href="/G11/Html/pages/add-to-cart.php?product_id=11" class="offer-btn">Shop Bundle</a>
             </article>
 
 
@@ -200,7 +200,7 @@
                     <span class="price">Perfect Gifts</span>
                     <span class="stock">No Wrapping Needed</span>
                 </div>
-                <a href="/G11/Html/pages/add-to-cart.php"><button class="offer-btn">Grab Deal</button></a>
+                <a href="/G11/Html/pages/add-to-cart.php?product_id=12" class="offer-btn">Grab Deal</a>
             </article>
 
 
@@ -215,7 +215,7 @@
                     <span class="price">Rs. 2,490</span>
                     <span class="price-old">Rs. 3,550</span>
                 </div>
-                <a href="/G11/Html/pages/add-to-cart.php"><button class="offer-btn">Grab Deal</button></a>
+                <a href="/G11/Html/pages/add-to-cart.php?product_id=13" class="offer-btn">Grab Deal</a>
             </article>
 
 
@@ -231,7 +231,7 @@
                     <span class="price">Members Only</span>
                     <span class="stock">Extra Savings</span>
                 </div>
-                <a href="/G11/Html/pages/add-to-cart.php"><button class="offer-btn">Shop Bundle</button></a>
+                <a href="/G11/Html/pages/add-to-cart.php?product_id=14" class="offer-btn">Shop Bundle</a>
             </article>
 
 
@@ -246,7 +246,7 @@
                     <span class="price">Festival Vibes</span>
                     <span class="stock">Limited Period</span>
                 </div>
-                <a href="/G11/Html/pages/add-to-cart.php"><button class="offer-btn">Grab Deal</button></a>
+                <a href="/G11/Html/pages/add-to-cart.php?product_id=15" class="offer-btn">Grab Deal</a>
             </article>
 
 
@@ -283,7 +283,7 @@
                     <span class="price">Rs. 2,490</span>
                     <span class="price-old">Rs. 3,550</span>
                 </div>
-                <a href="/G11/Html/pages/add-to-cart.php"><button class="offer-btn">Grab Deal</button></a>
+                <a href="/G11/Html/pages/add-to-cart.php?product_id=16" class="offer-btn">Grab Deal</a>
             </article>
 
 
@@ -297,7 +297,7 @@
                     <span class="price">Save Rs. 800</span>
                     <span class="stock">Most Purchased This Week</span>
                 </div>
-                <a href="/G11/Html/pages/add-to-cart.php"><button class="offer-btn">Shop Bundle</button></a>
+                <a href="/G11/Html/pages/add-to-cart.php?product_id=17" class="offer-btn">Shop Bundle</a>
             </article>
 
 
@@ -311,7 +311,7 @@
                     <span class="price">20h only</span>
                     <span class="stock">Trending Now</span>
                 </div>
-                <a href="/G11/Html/pages/add-to-cart.php"><button class="offer-btn">Grab Deal</button></a>
+                <a href="/G11/Html/pages/add-to-cart.php?product_id=18" class="offer-btn">Grab Deal</a>
             </article>
 
 
@@ -325,7 +325,7 @@
                     <span class="price">Rs. 3,500</span>
                     <span class="stock">Up to 35% Off</span>
                 </div>
-                <a href="/G11/Html/pages/add-to-cart.php"><button class="offer-btn">Grab Deal</button></a>
+                <a href="/G11/Html/pages/add-to-cart.php?product_id=19" class="offer-btn">Grab Deal</a>
             </article>
 
 
@@ -339,7 +339,7 @@
                     <span class="price">Rs. 2,750</span>
                     <span class="stock">Auto Bundle Discount Applied</span>
                 </div>
-                <a href="/G11/Html/pages/add-to-cart.php"><button class="offer-btn">Shop Bundle</button></a>
+                <a href="/G11/Html/pages/add-to-cart.php?product_id=20" class="offer-btn">Shop Bundle</a>
             </article>
 
 
@@ -354,7 +354,7 @@
                     <span class="price">15h only</span>
                     <span class="stock">Stock Running Out</span>
                 </div>
-                <a href="/G11/Html/pages/add-to-cart.php"><button class="offer-btn">Grab Deal</button></a>
+                <a href="/G11/Html/pages/add-to-cart.php?product_id=21" class="offer-btn">Grab Deal</a>
             </article>
 
 
@@ -368,7 +368,7 @@
                     <span class="price">Rs. 1800</span>
                     <span class="price-old">Rs. 2200</span>
                 </div>
-                <a href="/G11/Html/pages/add-to-cart.php"><button class="offer-btn">Grab Deal</button></a>
+                <a href="/G11/Html/pages/add-to-cart.php?product_id=22" class="offer-btn">Grab Deal</a>
             </article>
     </div>
     </section>
@@ -405,7 +405,7 @@
                     <span class="price">Rs. 2,400</span>
                     <span class="price-old">Rs. 3,500</span>
                 </div>
-                <a href="/G11/Html/pages/add-to-cart.php"><button class="offer-btn">Grab Deal</button></a>
+                <a href="/G11/Html/pages/add-to-cart.php?product_id=23" class="offer-btn">Grab Deal</a>
             </article>
 
 
@@ -419,7 +419,7 @@
                     <span class="price">Save Rs. 1000</span>
                     <span class="stock">Top Rated Office Styles</span>
                 </div>
-                <a href="/G11/Html/pages/add-to-cart.php"><button class="offer-btn">Shop Bundle</button></a>
+                <a href="/G11/Html/pages/add-to-cart.php?product_id=24" class="offer-btn">Shop Bundle</a>
             </article>
 
 
@@ -433,7 +433,7 @@
                     <span class="price">20h only</span>
                     <span class="stock">Ends Sunday</span>
                 </div>
-                <a href="/G11/Html/pages/add-to-cart.php"><button class="offer-btn">Grab Deal</button></a>
+                <a href="/G11/Html/pages/add-to-cart.php?product_id=25" class="offer-btn">Grab Deal</a>
             </article>
 
 
@@ -447,7 +447,7 @@
                     <span class="price">Rs. 3,100</span>
                     <span class="stock">Occasion Ready | Limited Stock</span>
                 </div>
-                <a href="/G11/Html/pages/add-to-cart.php"><button class="offer-btn">Grab Deal</button></a>
+                <a href="/G11/Html/pages/add-to-cart.php?product_id=26" class="offer-btn">Grab Deal</a>
             </article>
 
 
@@ -461,7 +461,7 @@
                     <span class="price">Rs. 2,000</span>
                     <span class="price-old">Rs. 2,500</span>
 </div>
-                <a href="/G11/Html/pages/add-to-cart.php"><button class="offer-btn">Shop Bundle</button></a>
+                <a href="/G11/Html/pages/add-to-cart.php?product_id=27" class="offer-btn">Shop Bundle</a>
             </article>
 
 
@@ -476,7 +476,7 @@
                     <span class="price">40h only</span>
                     <span class="stock">Ends SUN DAY</span>
                 </div>
-                <a href="/G11/Html/pages/add-to-cart.php"><button class="offer-btn">Grab Deal</button></a>
+                <a href="/G11/Html/pages/add-to-cart.php?product_id=28" class="offer-btn">Grab Deal</a>
             </article>
 
 
@@ -490,7 +490,7 @@
                     <span class="price">Rs. 999</span>
                     <span class="price-old">Rs. 1500</span>
                 </div>
-                <a href="/G11/Html/pages/add-to-cart.php"><button class="offer-btn">Grab Deal</button></a>
+                <a href="/G11/Html/pages/add-to-cart.php?product_id=29" class="offer-btn">Grab Deal</a>
             </article>
 
 
