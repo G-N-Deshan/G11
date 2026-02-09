@@ -28,7 +28,7 @@ while ($row = mysqli_fetch_assoc($result)) {
     $total += $row['price'] * $row['quantity'];
 }
 
-// Display success message if exists
+
 $success_message = $_SESSION['cart_success'] ?? '';
 unset($_SESSION['cart_success']);
 ?>
